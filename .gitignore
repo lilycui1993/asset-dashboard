@@ -1,0 +1,9 @@
+# Python
+__pycache__/
+*.pyc
+
+# Local build / test artifacts (regenerated at runtime by GitHub Actions)
+index.html
+embedded_data.json
+cache.json
+_validate.py
