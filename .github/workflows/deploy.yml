@@ -36,6 +36,7 @@ jobs:
 
       - name: Restore cache (跨运行保存上次成功的抓取结果)
         uses: actions/download-artifact@v4
+        continue-on-error: true
         with:
           name: cache
           path: .
